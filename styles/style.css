@@ -135,7 +135,7 @@
 
 /*achtergrond kleur van de site*/
 body {
-  background-color: #f2f2f2;
+   background-color: var(--l900-night-rider);
   /*Grijs-wit*/
   font-family: 'Tasa orbiter', sans-serif;
 }
@@ -188,6 +188,7 @@ h3 {
     a {
       display: block;
       padding: 1em;
+      text-align: center;
       text-decoration: none;
       color: #322f2f;
       font-size: 1.5em;
@@ -221,5 +222,13 @@ h3 {
   }
 
 footer{
+background-color: #f2f2f2;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
 
-  }
+.buttons{
+border: none;
+}
