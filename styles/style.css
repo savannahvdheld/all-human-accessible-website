@@ -128,6 +128,7 @@
   /* others */
   --tasa-orbiter: "TASA Orbiter", sans-serif;
 }
+
 @font-face {
   font-family: "Tasa Orbiter";
   src: url("fonts/TASAOrbiter-Regular.ttf") format("truetype");
@@ -172,10 +173,10 @@ h3 {
 
 
  @media (min-width:900px) {
-  background: var(--l900-night-rider);
+  background: var(--l800-night-rider);
   } 
 }
-  section.dashboard ul{
+  /* section.dashboard ul{
 
     ul.gridlist{
       background:#ffffff;
@@ -185,6 +186,8 @@ h3 {
       font-size: 1.5em;
       border-radius: 20px;
     }
+     */
+
     a {
       display: block;
       padding: 1em;
@@ -219,16 +222,22 @@ h3 {
       background: var(--l600-xavier-blue);
       border-radius: 20px;
     }
-  }
-
+  
 footer{
 background-color: #f2f2f2;
+padding: 50px;
+border-radius: 20px;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
 align-items: center;
 }
-
-.buttons{
-border: none;
+button{
+   border: none; 
+   padding: 4px;
+   width: 5em;
 }
+
+/* button:hover{
+color:var(--l600-xavier-blue);
+} */
