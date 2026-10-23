@@ -176,23 +176,13 @@ h3 {
   background: var(--l900-night-rider);
   } 
 }
-button:first-of-type {
+.filterknop button{
     background-color: var(--l900-night-rider);
     padding:15px;
     border-radius:15px;
 
 }
-  /* section.dashboard ul{
-
-    ul.gridlist{
-      background:#ffffff;
-      padding: 1em;
-      text-decoration: none;
-      display:block;
-      font-size: 1.5em;
-      border-radius: 20px;
-    }
-     */
+ 
 
     a {
       display: block;
@@ -255,22 +245,23 @@ button:first-of-type {
    } */
 
 footer{
-background-color: #fefefe;
-padding: 50px;
-border-radius: 20px;
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-align-items: center;
-}
-button{
-border:none;
-padding: 4px;
-width: 5em;
+  background-color: #fefefe;
+  padding: 50px;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 
-button:hover{
-color:var(--d100-cockatoo);
-}
+  button{
+    border:none;
+    padding: 4px;
+    width: 5em;
+
+    &:hover{
+      background-color:var(--d100-cockatoo);
+    }
+  }
 }
 
 
