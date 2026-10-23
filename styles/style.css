@@ -177,9 +177,14 @@ h3 {
   } 
 }
 .filterknop button{
-    background-color: var(--l900-night-rider);
+    background-color: var(--l800-night-rider);
+    border: none;
     padding:15px;
-    border-radius:15px;
+    border-radius:5px;
+  
+    &:hover{
+     background-color:var(--l700-night-rider);
+    }
 
 }
  
@@ -254,12 +259,13 @@ footer{
   align-items: center;
 
   button{
+    background-color: transparent;
     border:none;
-    padding: 4px;
-    width: 5em;
+    border-radius: 5px;
+    align-items: center;
 
     &:hover{
-      background-color:var(--d100-cockatoo);
+      background-color:var(--base-night-rider);
     }
   }
 }
