@@ -253,23 +253,20 @@ display: flex;
 flex-wrap: wrap;
 position: relative;
 gap: 1em;
-/* border-radius: 8px; */
 list-style: none;
-  @media (min-width:900px) {
-  } 
-  
+
 a{ 
    display: block;
-  padding: 1em;
-  box-shadow: none; 
-} 
+   padding: 6em;
+   box-shadow: none;
+   align-items: center; 
+
+}
+
   li{
     background: var(--l900-bleached-silk);
-    flex-grow: 1;
-    display: block;
-    padding: 1em;
-    box-shadow: none;
-    
+    border-color: var(--l800-bleached-silk);
+    border: 10px;
   }
 
 }
