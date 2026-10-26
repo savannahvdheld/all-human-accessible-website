@@ -252,8 +252,10 @@ h3 {
 display: flex;
 flex-wrap: wrap;
 position: relative;
-gap: 1em;
+gap: 7em;
 list-style: none;
+border-color: var(--l700-bleached-silk);
+border: 10px;
 
 a{ 
    display: block;
@@ -265,8 +267,7 @@ a{
 
   li{
     background: var(--l900-bleached-silk);
-    border-color: var(--l800-bleached-silk);
-    border: 10px;
+    
   }
 
 }
