@@ -248,6 +248,31 @@ h3 {
                     transparent calc(var(--i) * 12.5) calc(var(--i) * 13.5),
                     var(--d200-bleached-silk) calc(var(--i) * 13.5));
    } */
+.cards ul{
+display: flex;
+flex-wrap: wrap;
+position: relative;
+gap: 1em;
+/* border-radius: 8px; */
+list-style: none;
+  @media (min-width:900px) {
+  } 
+  
+a{ 
+   display: block;
+  padding: 1em;
+  box-shadow: none; 
+} 
+  li{
+    background: var(--l900-bleached-silk);
+    flex-grow: 1;
+    display: block;
+    padding: 1em;
+    box-shadow: none;
+    
+  }
+
+}
 
 footer{
   background-color: #fefefe;
