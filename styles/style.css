@@ -206,17 +206,53 @@ p{
   background: var(--l900-night-rider);
   } 
 }
+
+.recommended_text{
+  display: grid;
+  grid-template-columns: 4fr 2fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr; /*3 kollomen die verticaal staan*/ 
+
+
+h2{
+  font-weight: 600;
+  justify-self: left;
+  
+}
+  li{
+    background-color: transparent;
+    list-style-type: none;
+    
+  }
+
+     li:nth-of-type(2) {
+      background-color: transparent;
+      grid-row:2;
+     }
+        li:nth-of-type(3) {
+      background-color: transparent;
+      grid-row:3;
+    }
+
+   
+}
+
 .filterknop button{
     background-color: var(--l800-night-rider);
     border: none;
-    padding:15px;
+    padding:10px;
     border-radius:5px;
+    margin: 2%;
+    
+    display:grid;
+    grid-row:3;
+    
   
     &:hover{
-     background-color:var(--l700-night-rider);
+     background-color:var(--base-night-rider);
+    }
     }
 
-}
+
  
 
     a {
@@ -283,14 +319,18 @@ p{
 display: flex;
 flex-wrap: wrap;
 position: relative;
+align-items: center;
+/* margin: 3%; */
+padding: 5%;
 gap: 7em;
 list-style: none;
+
 border-color: var(--l700-bleached-silk);
 border: 10px;
 
 a{ 
    display: block;
-   padding: 6em;
+   padding: 4em;
    box-shadow: none;
    align-items: center; 
 
