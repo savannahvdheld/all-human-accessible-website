@@ -165,6 +165,32 @@ h3 {
 p{
    font-family: "TASAOrbiter", sans-serif; 
 }
+
+.nav {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 15px;
+
+  h2{
+    grid-column: -3/-2;
+  }
+}
+
+.Logo_Pediaconnect {
+  width: 50px;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 15px;
+}
+
+.HamburgerMenu {
+  width: 30px;
+  justify-items: center;
+  margin-top: 29px;
+}
+
 .dashboard ul {
   display: flex;
   flex-wrap: wrap;
