@@ -171,7 +171,7 @@ p{
   justify-items: center;
   grid-template-columns: 1fr 4fr 1fr;
   grid-template-rows: 1fr 1fr;
-  padding: 15px;
+  padding: 5px;
 
   h2{
     grid-column: -3/-2;
@@ -182,7 +182,7 @@ p{
   width: 50px;
   justify-content: center;
   justify-items: center;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .HamburgerMenu {
@@ -256,7 +256,7 @@ p{
 
 /*lijntje tussen de cards en dashboard in*/
 
-/* .line{
+/* .scheidings lijn{
 
    --i: calc(100% / 14);
 
@@ -277,7 +277,8 @@ p{
                     var(--d200-bleached-silk) calc(var(--i) * 11.5) calc(var(--i) * 12.5),
                     transparent calc(var(--i) * 12.5) calc(var(--i) * 13.5),
                     var(--d200-bleached-silk) calc(var(--i) * 13.5));
-   } */
+   } 
+    */
 .cards ul{
 display: flex;
 flex-wrap: wrap;
