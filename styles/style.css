@@ -211,7 +211,7 @@ p{
   display: grid;
   grid-template-columns: 4fr 2fr 1fr;
   grid-template-rows: 1fr 1fr 1fr; /*3 kollomen die verticaal staan*/ 
-
+  margin: 0;
 
 h2{
   font-weight: 600;
@@ -243,14 +243,17 @@ h2{
     border-radius:5px;
     margin: 2%;
     
-    display:grid;
-    grid-row:3;
+    /* display:grid;
+    grid-row:3; */
     
   
     &:hover{
      background-color:var(--base-night-rider);
+     color: var(--base-bleached-silk)
     }
-    }
+
+   }
+    
 
 
  
@@ -359,6 +362,7 @@ footer{
 
     &:hover{
       background-color:var(--base-night-rider);
+      color: var(--base-bleached-silk)
     }
   }
 }
