@@ -159,8 +159,12 @@ h1,
 h2,
 h3 {
   font-family: "TASAOrbiter", sans-serif;
+  font-weight: 500;
 }
 
+p{
+   font-family: "TASAOrbiter", sans-serif; 
+}
 .dashboard ul {
   display: flex;
   flex-wrap: wrap;
