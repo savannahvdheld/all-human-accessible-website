@@ -24,6 +24,11 @@ Je opent de applicatie op het dashboard, waar een paar knoppen, navigatie en de 
 Deze knoppen hebben links naar de Collega's, Oppertunities en Evenementen pagina's. Zo kan de gebruiker makkelijk navigeren tussen de web pagina's.
 Daarnaast staat er een filter knop onder de header, hierdoor zijn de onderstaande kaartjes makkelijker te navigeren.
 
+Op de kaartjes
+
+Daarnaast heeft de gebruiker zijn/haar eigen profiel.
+Dit profiel is te personaliseren met een quote, een foto, of beide. Verder kunnen ze een korte beschrijving over zichzelf geven, hun netwerk laten zien en de projecten waar ze aan gewerkt hebben. In dit profiel staan ook een link naar hun Linkedin en een QR code als identifier. 
+
 ### Rol: Wie zijn wij?
 Als frontenders maken wij websites die responsive <em id="responsive">(toegankelijk op verschillende schermen)</em>, accessible <em id="accessible">(voor mensen met beperkingen)</em>, statisch (zonder echte opgeslagen data) zijn.
 
@@ -42,7 +47,7 @@ Een collectie van repositories (online werkomgeving waar alle code te vinden is)
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
 
 Voor dit project hebben wij voornamelijk HTML, CSS en Javascript gebruikt.
-Mobile first gewerkt
+Daarnaast hebben we mobile first gewerkt zodat de website responsive en accesible is.
 
 ## Bronnen
 
