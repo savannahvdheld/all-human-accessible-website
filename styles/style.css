@@ -210,7 +210,7 @@ p{
 .recommended_text{
   display: grid;
   grid-template-columns: 4fr 2fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr; /*3 kollomen die verticaal staan*/ 
+  /* grid-template-rows: 1fr 1fr 1fr; /*3 kollomen die verticaal staan*/ 
   margin: 0;
 
 h2{
@@ -236,22 +236,27 @@ h2{
    
 }
 
-.filterknop button{
-    background-color: var(--l800-night-rider);
-    border: none;
-    padding:10px;
-    border-radius:5px;
-    margin: 2%;
+.filterknop{
     
-    /* display:grid;
-    grid-row:3; */
     
-  
-    &:hover{
+    
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    grid-row:3;
+    
+    button{
+      background-color: var(--l800-night-rider);
+      border: none;
+      padding:10px;
+      border-radius:5px;
+      margin: 2%;
+
+      &:hover{
      background-color:var(--base-night-rider);
      color: var(--base-bleached-silk)
     }
-
+    }
    }
     
 
