@@ -237,14 +237,19 @@ h2{
 }
 
 .filterknop{
-    
-    
-    
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-
-    grid-row:3;
     
+    /* li{
+      background-color: transparent;
+      list-style: none;
+    }
+      li:nth-of-type(2) {
+      background-color: transparent;
+      color: transparent;
+      grid-column:3;
+     } */
+
     button{
       background-color: var(--l800-night-rider);
       border: none;
