@@ -366,7 +366,7 @@ list-style: none;
 border-color: var(--l700-bleached-silk);
 border: 10px;
 
- @media (min-width:500px) {
+ @media (min-width:800px) {
   grid-template-columns: 1fr 1fr 1fr;
   } 
 
@@ -394,6 +394,9 @@ footer{
   flex-wrap: wrap;
   justify-content: center;
 
+/* @media (min-width:800px) {
+  writing-mode:sideways-lr;
+  }  */
   button{
     background-color: transparent;
     border:none;
@@ -401,8 +404,7 @@ footer{
     align-items: center;
 
     &:hover{
-      background-color:var(--base-night-rider);
-      color: var(--base-bleached-silk)
+      background-color:var(--base-bleached-silk);
     }
   }
 }
