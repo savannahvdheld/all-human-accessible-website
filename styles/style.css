@@ -262,7 +262,9 @@ h2{
 
 .filterknop{
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 4fr 2fr 1fr;
+    justify-self: left;
+    margin-left: 35px;
     
     /* li{
       background-color: transparent;
@@ -397,6 +399,7 @@ footer{
 /* @media (min-width:800px) {
   writing-mode:sideways-lr;
   }  */
+    
   button{
     background-color: transparent;
     border:none;
