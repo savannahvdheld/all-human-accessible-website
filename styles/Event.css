@@ -175,10 +175,14 @@ p{
     li{
     list-style: none;
     }
+ @media (min-width:900px) {
+  background: var( --l600-xavier-blue);
+  margin:20px; 
+  border-radius:8px;
+  } 
+    /* li:nth-of-type(2) {
 
-    li:nth-of-type(2) {
-
-    }
+    } */
 }
   .map{
     li{
@@ -195,9 +199,10 @@ footer{
   flex-wrap: wrap;
   justify-content: center;
 
-  button{
+  a{
     background-color: transparent;
     border:none;
+    padding: 5px;
     border-radius: 5px;
     align-items: center;
 
