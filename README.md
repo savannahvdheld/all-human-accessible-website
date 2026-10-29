@@ -52,6 +52,7 @@ Daarnaast hebben we mobile first gewerkt zodat de website responsive en accesibl
 ## Bronnen
 
 ### Repositories:
+Meerdere mensen hebben aan dit project gewerkt, hieronder de links naar hun repositories.
 - Xin: 
   - https://github.com/XinJuliette/all-human-accessible-website
   - https://github.com/XinJuliette/the-client-website
