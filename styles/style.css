@@ -241,6 +241,7 @@ p{
     }
    }
 
+/* BOVENSTE NAV*/
     a {
       display: block;
       padding: 1em;
@@ -276,63 +277,45 @@ p{
       border-radius: 8px;
     }
 
-
-/*lijntje tussen de cards en dashboard in*/
-
-/* .scheidings lijn{
-
-   --i: calc(100% / 14);
-
-  height: 2px;
-  background: 
-    linear-gradient(to right, var(--d200-bleached-silk) calc(var(--i) / 2),
-                    transparent calc(var(--i) / 2) calc(var(--i) * 1.5),
-                    var(--d200-bleached-silk) calc(var(--i) * 1.5) calc(var(--i) * 2.5),
-                    transparent calc(var(--i) * 2.5) calc(var(--i) * 3.5),
-                    var(--d200-bleached-silk) calc(var(--i) * 3.5) calc(var(--i) * 4.5),
-                    transparent calc(var(--i) * 4.5) calc(var(--i) * 5.5),
-                    var(--d200-bleached-silk) calc(var(--i) * 5.5) calc(var(--i) * 6.5),
-                    transparent calc(var(--i) * 6.5) calc(var(--i) * 7.5),
-                    var(--d200-bleached-silk) calc(var(--i) * 7.5) calc(var(--i) * 8.5),
-                    transparent calc(var(--i) * 8.5) calc(var(--i) * 9.5),
-                    var(--d200-bleached-silk) calc(var(--i) * 9.5) calc(var(--i) * 10.5),
-                    transparent calc(var(--i) * 10.5) calc(var(--i) * 11.5),
-                    var(--d200-bleached-silk) calc(var(--i) * 11.5) calc(var(--i) * 12.5),
-                    transparent calc(var(--i) * 12.5) calc(var(--i) * 13.5),
-                    var(--d200-bleached-silk) calc(var(--i) * 13.5));
-   } 
-    */
-.cards{
-display: grid;
-grid-template-columns: 1fr;
+/*CARDS*/
+.cards{  
+display: flex;
+flex-wrap: wrap;
 position: relative;
-align-items: center;
-padding: 5%;
-gap: 6em;
-list-style: none;
-
 border-color: var(--l700-bleached-silk);
 border: 10px;
 
- @media (min-width:800px) {
+ /* @media (min-width:800px) {
   grid-template-columns: 1fr 1fr 1fr;
-  } 
+  }  */
 
 a{ 
-  display: flex;
-  flex-wrap: wrap;
-  position: relative;
   background-color: #fefefe;
   padding: 5%;
   margin: 3%;
-   box-shadow: none;
-   align-items: center; 
-   gap: 1em;
-  border-radius: 8px;
-  
-  
+  box-shadow: none;
+  gap: 1em;
+  border-radius: 8px; 
+}
 }
 
+.bookmarked_cards{
+display: flex;
+flex-wrap: wrap;
+position: relative;
+overflow-x: auto;
+scrollbar-width: none;
+border-color: var(--l700-bleached-silk);
+border: 10px;
+
+a{
+    background-color: #fefefe;
+  padding: 5%;
+  margin: 3%;
+  box-shadow: none;
+  gap: 1em;
+  border-radius: 8px; 
+}
 }
 
 footer{
