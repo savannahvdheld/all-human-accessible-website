@@ -133,25 +133,21 @@
   font-family: "Tasa Orbiter";
   src: url("fonts/TASAOrbiter-Regular.ttf") format("truetype");
 }
-
+header{
+top:0;
+position:sticky;
+z-index: 10;
+background-color:#f2f2f2;
+}
 /*achtergrond kleur van de site*/
 body {
-   background-color:#f2f2f2;;
+   background-color:#f2f2f2;
   /*Grijs-wit*/
   font-family: 'Tasa orbiter', sans-serif;
 }
-/*styling h1,h2 en h3 text*/
-h1 {
-  text-align: center;
-}
 
-h2 {
-  text-align: center;
-}
-
-h3 {
-  text-align: start;
-  padding: 1rem;
+main{
+  margin:3em;
 }
 
 /*styling font text*/
@@ -166,33 +162,11 @@ p{
    font-family: "TASAOrbiter", sans-serif; 
 }
 
-/* Hier begint de Events pagina styling */
-.nav {
-  display: grid;
-  justify-items: center;
-  grid-template-columns: 1fr 4fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  padding: 5px;
-
-  h2{
-    grid-column: -3/-2;
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
 /* Hier begint de Dashboard styling */
 .nav {
   display: grid;
   justify-items: center;
+  position: sticky;
   grid-template-columns: 1fr 4fr 1fr;
   grid-template-rows: 1fr 1fr;
   padding: 5px;
@@ -233,48 +207,25 @@ p{
 
 .recommended_text{
   display: grid;
-  grid-template-columns: 4fr 2fr 1fr;
+  grid-template-columns: 4fr 1fr;
+  grid-template-rows: 1fr 1fr;
   /* grid-template-rows: 1fr 1fr 1fr; /*3 kollomen die verticaal staan*/ 
   margin: 0;
 
 h2{
   font-weight: 600;
-  justify-self: left;
+  
   
 }
-  li{
-    background-color: transparent;
-    list-style-type: none;
-    
-  }
-
-     li:nth-of-type(2) {
-      background-color: transparent;
-      grid-row:2;
-     }
-        li:nth-of-type(3) {
-      background-color: transparent;
-      grid-row:3;
-    }
-
-   
+p{
+  grid-row:2;
+}
 }
 
 .filterknop{
     display:grid;
     grid-template-columns: 4fr 2fr 1fr;
     justify-self: left;
-    margin-left: 35px;
-    
-    /* li{
-      background-color: transparent;
-      list-style: none;
-    }
-      li:nth-of-type(2) {
-      background-color: transparent;
-      color: transparent;
-      grid-column:3;
-     } */
 
     button{
       background-color: var(--l800-night-rider);
@@ -289,10 +240,6 @@ h2{
     }
     }
    }
-    
-
-
- 
 
     a {
       display: block;
@@ -355,14 +302,13 @@ h2{
                     var(--d200-bleached-silk) calc(var(--i) * 13.5));
    } 
     */
-.cards ul{
+.cards{
 display: grid;
 grid-template-columns: 1fr;
 position: relative;
 align-items: center;
-/* margin: 3%; */
 padding: 5%;
-gap: 7em;
+gap: 6em;
 list-style: none;
 
 border-color: var(--l700-bleached-silk);
@@ -388,8 +334,12 @@ a{
 }
 
 footer{
-  background-color: #fefefe;
+  bottom:0;
   position:sticky;
+  z-index: 10;
+  background-color: #fefefe;
+  
+
   padding: 25px;
   border-radius: 20px;
   display: flex;

@@ -194,18 +194,26 @@ p{
 
     } */
 }
-  .map{
+  ul{
     
     li{
       list-style-type: none;
        display:grid;
-      grid-template-columns: 1fr 1fr;
+       grid-template-columns: 1fr 1fr;
     }
-    li:nth-of-type(2) {
-      display:grid;
-      grid-template-columns: 1fr;
+  }
+
+.EventCards{
+  display:grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  background-color: #fefefe;
+  border-radius:8px;
+
+   @media (min-width:900px) {
+  
   }
 }
+
 /*styling footer*/
 footer{
   background-color: #fefefe;
