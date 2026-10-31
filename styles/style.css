@@ -319,17 +319,19 @@ border: 10px;
   } 
 
 a{ 
-   display: grid;
-   padding: 4em;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  background-color: #fefefe;
+  padding: 5%;
+  margin: 3%;
    box-shadow: none;
    align-items: center; 
-
+   gap: 1em;
+  border-radius: 8px;
+  
+  
 }
-
-  li{
-    background: var(--l900-bleached-silk);
-    
-  }
 
 }
 
