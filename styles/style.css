@@ -133,6 +133,8 @@
   font-family: "Tasa Orbiter";
   src: url("fonts/TASAOrbiter-Regular.ttf") format("truetype");
 }
+
+
 header{
 top:0;
 position:sticky;
@@ -184,10 +186,16 @@ p{
 }
 
 .HamburgerMenu {
-  width: 30px;
+  width: 20px;
+  grid-column:3;
+  grid-row:1;
   justify-items: center;
   margin-top: 29px;
-}
+  border:none;
+  }
+
+
+
 /* HEADER NAV STYLING */
 
 .dashboard ul {
