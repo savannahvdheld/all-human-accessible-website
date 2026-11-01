@@ -222,7 +222,7 @@ p{
   grid-row:2;
 }
 }
-
+/* FILTERBUTTON EN REFRESHBUTTON STYLING */
 .filterbuttons{
   display: grid;
   grid-template-columns: 1fr 1fr 6fr;
