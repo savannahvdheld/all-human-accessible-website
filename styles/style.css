@@ -444,7 +444,10 @@ background-color: transparent;
   }
 }
 
-
+/*BOOKMARKED INTRO TEXT STYLING*/
+.Bookmark_text{
+font-weight:700;
+}
 /*BOOKMARKED CARDS STYLING*/
 .bookmarked_cards {
   display: flex;
