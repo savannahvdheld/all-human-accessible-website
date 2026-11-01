@@ -223,23 +223,26 @@ p{
 }
 }
 
-.filterknop{
-    display:grid;
-    grid-template-columns: 4fr 2fr 1fr;
-    justify-self: left;
+.filterbuttons{
+  display: grid;
+  grid-template-columns: 1fr 1fr 6fr;
 
-    button{
-      background-color: var(--l800-night-rider);
-      border: none;
-      padding:10px;
-      border-radius:5px;
-      margin: 2%;
+.refresh{
+background-color: transparent;
+border:none;
+justify-self: left;
+}
+  .filterknop{
+    border-radius:8px;
+    border:none;
+    background-color: var(--l900-night-rider);
+    
+    &:hover{
+    background-color: var(--base-night-rider);
+    color: var(--base-bleached-silk)
 
-      &:hover{
-     background-color:var(--base-night-rider);
-     color: var(--base-bleached-silk)
     }
-    }
+  } 
    }
 
 /* BOVENSTE NAV*/
