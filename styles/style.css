@@ -1,6 +1,6 @@
 /* CSS */
 
-/*Styling kleuren huisstijl Pediaconnect*/
+/*KLEUREN HUISSTIJL PEDIACONNECT*/
 :root {
   /* colors */
   --base-xivier-blue: #66b3df;
@@ -139,7 +139,7 @@ position:sticky;
 z-index: 10;
 background-color:#f2f2f2;
 }
-/*achtergrond kleur van de site*/
+/*BODY STYLING*/
 body {
    background-color:#f2f2f2;
   /*Grijs-wit*/
@@ -150,7 +150,7 @@ main{
   margin:3em;
 }
 
-/*styling font text*/
+/* FONT TEXT STYLING */
 h1,
 h2,
 h3 {
@@ -162,7 +162,7 @@ p{
    font-family: "TASAOrbiter", sans-serif; 
 }
 
-/* Hier begint de Dashboard styling */
+/* HEADER STYLING */
 .nav {
   display: grid;
   justify-items: center;
@@ -188,6 +188,7 @@ p{
   justify-items: center;
   margin-top: 29px;
 }
+/* HEADER NAV STYLING */
 
 .dashboard ul {
   display: flex;
@@ -204,7 +205,7 @@ p{
   background: var(--l900-night-rider);
   } 
 }
-
+/* RECOMMENDED TEXT STYLING */
 .recommended_text{
   display: grid;
   grid-template-columns: 4fr 1fr;
@@ -277,8 +278,7 @@ p{
       border-radius: 8px;
     }
 
-/*CARDS MAIN*/
-
+/*BOVENSTE CARDS GRID STYLING*/
 .cards {
   display: flex;
   gap: 1em;
@@ -293,6 +293,7 @@ p{
   box-shadow:none;
   background-color: var(--l700-bleached-silk);
 }
+/* Dit zorgt ervoor dat de cards flowen van 1 kaart op mobile first, naar 3 cards op desktop */
 
 @media (min-width: 900px) {
   .cards {
@@ -305,7 +306,7 @@ p{
 }
 
 
-/*BOOKMARKED CARDS*/
+/*BOOKMARKED CARDS STYLING*/
 .bookmarked_cards {
   display: flex;
   gap: 1em;
@@ -321,6 +322,7 @@ p{
   background-color: var(--l700-bleached-silk);
 }
 
+/* Dit zorgt ervoor dat de cards flowen van 1 kaart op mobile first, naar 3 cards op desktop */
 @media (min-width: 900px) {
   .cards {
     overflow-x: visible;
@@ -331,6 +333,7 @@ p{
   min-width: 0;  }
 }
 
+/* FOOTER */
 footer{
   bottom:0;
   position:sticky;
@@ -347,7 +350,8 @@ footer{
 /* @media (min-width:800px) {
   writing-mode:sideways-lr;
   }  */
-    
+
+/* BUTTONS STYLING FOOTER  */
   button{
     background-color: transparent;
     border:none;
