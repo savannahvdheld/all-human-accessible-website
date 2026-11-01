@@ -283,14 +283,12 @@ p{
   display: flex;
   gap: 1em;
   overflow-x: auto;
-  scroll-snap-type: x mandatory;
   scrollbar-width: none;
-  padding-bottom: 0.5em;
+  padding: 1em;
 }
 
-.cards a {
+ .cards a {
   flex: 0 0 100%;
-  scroll-snap-align: center;
   box-sizing: border-box;
   box-shadow:none;
   background-color: var(--l700-bleached-silk);
@@ -308,33 +306,31 @@ p{
 
 
 /*BOOKMARKED CARDS*/
-.bookmarked_cards{
-display: flex;
-flex-direction:row;
-position: relative;
-border-color: var(--l700-bleached-silk);
-border: 10px;
-
-a{
-  background-color: #fefefe;
-  padding: 5%;
-  margin: 3%;
-  box-shadow: none;
+.bookmarked_cards {
+  display: flex;
   gap: 1em;
-  border-radius: 8px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  padding: 1em;
+}
 
-  @media (min-width: 768px) {
+ .bookmarked_cards a {
+  flex: 0 0 100%;
+  box-sizing: border-box;
+  box-shadow:none;
+  background-color: var(--l700-bleached-silk);
+}
+
+@media (min-width: 900px) {
   .cards {
     overflow-x: visible;
-    scroll-snap-type: none;
-  }
+    }
 
-  .cards a {
-    flex: 1 1 calc(33.333% - 1em);
-  }
+  .bookmarked_cards a {
+  flex: 1 1 0;
+  min-width: 0;  }
 }
-}
-}
+
 footer{
   bottom:0;
   position:sticky;
