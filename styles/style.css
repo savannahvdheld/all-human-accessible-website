@@ -289,13 +289,148 @@ justify-self: left;
   scrollbar-width: none;
   padding: 1em;
 }
+/* STYLING CARD 1 */
+/* Voor nu staan alle 3 van de bovenste cards als hetzelfde, dit ga ik later veranderen in de juiste cards van het design */
+#card1{
+  display: grid;
+  grid-template-columns: 4fr 1fr 1fr;
+  grid-template-rows: auto auto auto auto;
+  gap: 1em;
 
+ h3{
+grid-row:1;
+justify-self: start;
+ }
+
+ h4{
+  justify-self: start;
+  grid-row:2;
+  margin:0;
+  padding:0;
+ }
+  p{
+    grid-row:3;
+    font-weight:600;
+  }
+
+button{
+  grid-row:4;
+  justify-self: start; 
+  align-self:center;
+  width: auto;
+  border-radius: 8px;
+  padding:1em;
+}
+.More_options_menu{
+grid-row:1;
+border:none;
+background-color: transparent;
+}
+
+.bookmark{
+  grid-column:2;
+  grid-row:1;
+  border:none;
+  background-color: transparent;
+}
+}
+/* STYLING CARD 2 */
+#card2{
+display: grid;
+  grid-template-columns: 4fr 1fr 1fr;
+  grid-template-rows: auto auto auto auto;
+  gap: 1em;
+
+ h3{
+grid-row:1;
+justify-self: start;
+ }
+
+ h4{
+  justify-self: start;
+  grid-row:2;
+  margin:0;
+  padding:0;
+ }
+  p{
+    grid-row:3;
+    font-weight:600;
+  }
+
+button{
+  grid-row:4;
+  justify-self: start; 
+  align-self:center;
+  width: auto;
+  border-radius: 8px;
+  padding:1em;
+}
+.More_options_menu{
+grid-row:1;
+border:none;
+background-color: transparent;
+}
+
+.bookmark{
+  grid-column:2;
+  grid-row:1;
+  border:none;
+  background-color: transparent;
+}
+}
+/* STYLING CARD 3 */
+#card3{
+display: grid;
+  grid-template-columns: 4fr 1fr 1fr;
+  grid-template-rows: auto auto auto auto;
+  gap: 1em;
+
+ h3{
+grid-row:1;
+justify-self: start;
+ }
+
+ h4{
+  justify-self: start;
+  grid-row:2;
+  margin:0;
+  padding:0;
+ }
+  p{
+    grid-row:3;
+    font-weight:600;
+  }
+
+button{
+  grid-row:4;
+  justify-self: start; 
+  align-self:center;
+  width: auto;
+  border-radius: 8px;
+  padding:1em;
+}
+.More_options_menu{
+grid-row:1;
+border:none;
+background-color: transparent;
+}
+
+.bookmark{
+  grid-column:2;
+  grid-row:1;
+  border:none;
+  background-color: transparent;
+}
+}
+
+/* STYLING CARDS FLOW VANAF MOBILE FIRST */
  .cards a {
   flex: 0 0 100%;
   box-sizing: border-box;
   box-shadow:none;
   background-color: var(--l700-bleached-silk);
 }
+
 /* Dit zorgt ervoor dat de cards flowen van 1 kaart op mobile first, naar 3 cards op desktop */
 
 @media (min-width: 900px) {
@@ -305,7 +440,8 @@ justify-self: left;
 
   .cards a {
   flex: 1 1 0;
-  min-width: 0;  }
+  min-width: 0;
+  }
 }
 
 
